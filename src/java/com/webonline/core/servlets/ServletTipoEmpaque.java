@@ -18,8 +18,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.webonline.core.model.AccessToken;
 import java.lang.reflect.Type;
 import com.webonline.core.model.TipoEmpaque;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -31,10 +33,13 @@ public class ServletTipoEmpaque extends HttpServlet {
             throws ServletException, IOException {
 
         RequestDispatcher despachador = null;
+        HttpSession session = peticion.getSession();
+        AccessToken token = (AccessToken)session.getAttribute("token");
         URL url = new URL("http://localhost:9200/api/v1/tiposempaque");
         HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
         conexion.setRequestMethod("GET");
         conexion.setRequestProperty("Accept", "application/json");
+        conexion.setRequestProperty("Authorization", "Bearer ".concat(token.getAccessToken()));
         String encode = conexion.getContentEncoding();
         System.out.println("Encoding:" + encode);
         if (conexion.getResponseCode() != 200) {

@@ -33,4 +33,12 @@
         <servlet-name>ServletAutenticar</servlet-name>
         <url-pattern>/ServletAutenticar.do</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletEliminarCategoria</servlet-name>
+        <servlet-class>com.webonline.core.servlets.ServletEliminarCategoria</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletEliminarCategoria</servlet-name>
+        <url-pattern>/ServletEliminarCategoria.do</url-pattern>
+    </servlet-mapping>
 </web-app>

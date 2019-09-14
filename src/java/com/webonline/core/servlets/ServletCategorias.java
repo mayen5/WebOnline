@@ -29,6 +29,7 @@ public class ServletCategorias extends HttpServlet {
         HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
         conexion.setRequestMethod("GET");
         conexion.setRequestProperty("Accept", "application/json; charset=UTF-8");
+        conexion.setRequestProperty("Authorization", "Bearer ".concat(token.getAccessToken()));
         respuesta.setCharacterEncoding("UTF-8");
         peticion.setCharacterEncoding("UTF-8");
         if (conexion.getResponseCode() != 200) {
@@ -44,8 +45,8 @@ public class ServletCategorias extends HttpServlet {
             List<Categoria> listaCategoria = null;
             while ((salida = br.readLine()) != null) {
                 listaCategoria = gson.fromJson(salida, tipoCategorias);
-                System.out.println("salida: " + salida);
-                System.out.println("listaCategoria: " + listaCategoria);
+                //System.out.println("salida: " + salida);
+                //System.out.println("listaCategoria: " + listaCategoria);
             }
             conexion.disconnect();
             peticion.setAttribute("categorias", listaCategoria);

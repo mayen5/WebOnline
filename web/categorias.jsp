@@ -37,8 +37,15 @@
                             <tr>
                                 <td>${categoria.codigoCategoria}</td>
                                 <td>${categoria.descripcion}</td>
-                                <td><button class="btn btn-warning">Editar</button></td>
-                                <td><button class="btn btn-danger">Eliminar</button></td>
+                                <td>
+                                    <button class="btn btn-warning">Editar</button>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger" 
+                                       href="ServletEliminarCategoria.do?codigoCategoria=${categoria.codigoCategoria}">
+                                        Eliminar
+                                    </a>
+                                </td>
 
                             </tr>
                         </c:forEach>
