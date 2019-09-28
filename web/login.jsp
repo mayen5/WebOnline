@@ -23,14 +23,14 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-primary text-light" id="addon-wrapping">Username</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Write your Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        <input id="username" name="username" type="text" class="form-control" placeholder="Write your Username" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                     <br>
                     <div class="form-group input-group flex-nowrap">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-primary text-light" id="addon-wrapping">Password</span>
                         </div>
-                        <input type="password" class="form-control" placeholder="Write your Password" aria-label="Username" aria-describedby="addon-wrapping">
+                        <input id="password" name="password" type="password" class="form-control" placeholder="Write your Password" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                     <br>
                     <div class="text-center">

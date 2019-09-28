@@ -9,9 +9,17 @@
             30
         </session-timeout>
     </session-config>
+    <context-param>
+        <param-name>endPoint</param-name>
+        <param-value>http://localhost:9200/api/v1</param-value>
+        <description>URL API Inventario V 1.0</description>
+    </context-param>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
     <servlet>
         <servlet-name>ServletCategorias</servlet-name>
-        <servlet-class>com.webonline.core.servlets.ServletCategorias</servlet-class>
+        <servlet-class>com.webonline.core.servlets.ServletCategorias</servlet-class>        
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletCategorias</servlet-name>
@@ -27,7 +35,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ServletAutenticar</servlet-name>
-        <servlet-class>com.webonline.core.servlets.ServletAutenticar</servlet-class>
+        <servlet-class>com.webonline.core.servlets.ServletAutenticar</servlet-class>        
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletAutenticar</servlet-name>
