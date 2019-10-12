@@ -3,23 +3,23 @@ package com.webonline.core.model;
 import java.io.Serializable;
 
 public class CreatedResponse implements Serializable{
-    private Categoria categoria;
+    private Object objeto;
     private String mensaje;
 
     public CreatedResponse() {
     }
 
-    public CreatedResponse(Categoria categoria, String mensaje) {
-        this.categoria = categoria;
+    public CreatedResponse(Object objeto, String mensaje) {
+        this.objeto = objeto;
         this.mensaje = mensaje;
     }
 
-    public Categoria getCategoria() {
-        return categoria;
+    public Object getObjeto() {
+        return objeto;
     }
 
-    public void setCategoria(Categoria categoria) {
-        this.categoria = categoria;
+    public void setObjeto(Object objeto) {
+        this.objeto = objeto;
     }
 
     public String getMensaje() {
@@ -29,6 +29,6 @@ public class CreatedResponse implements Serializable{
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-    
+
     
 }

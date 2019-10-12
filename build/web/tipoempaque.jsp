@@ -14,10 +14,10 @@
     </head>
     <jsp:include page="menu.jsp"></jsp:include>
         <body>
-            <h1>Categorias</h1>
+            <h1>Tipo Empaque</h1>
             <div class="card border-primary mb-3">
                 <div class="card-header">
-                    Categorias
+                    Tipo Empaque
                 </div>
                 <div class="card-body text-primary">
                     <h5 class="card-title">Listado de Tipo de Empaque</h5>

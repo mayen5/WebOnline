@@ -18,7 +18,7 @@
     <body>
         <div class="jumbotron">
             <h1 class="display-4">Bienvenido al portal de compras en linea!</h1>
-            <h1>${token.accessToken}</h1>
+<!--            <h1>${token.accessToken}</h1>-->
             <p class="lead">Sistema de control de compras.</p>
             <hr class="my-4">
             <p>Puede iniciar el proceso de compras en cualquier momento.</p>

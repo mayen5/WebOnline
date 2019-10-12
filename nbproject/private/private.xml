@@ -3,13 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/model/DeleteResponse.java</file>
             <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/categorias.jsp</file>
-            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/servlets/ServletAutenticar.java</file>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/servlets/ServletAgregarCategoria.java</file>
             <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/servlets/ServletCategorias.java</file>
-            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/WEB-INF/web.xml</file>
-            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/index.jsp</file>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/model/CreatedResponse.java</file>
             <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/login.jsp</file>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/index.jsp</file>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/createCategoria.jsp</file>
             <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/controller/CategoriaController.java</file>
+            <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/web/tipoempaque.jsp</file>
             <file>file:/D:/Users/cmayen/Documents/NetBeansProjects/WebOnline/src/java/com/webonline/core/servlets/ServletEliminarCategoria.java</file>
         </group>
     </open-files>
