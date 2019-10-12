@@ -37,7 +37,7 @@ public class ServletActualizarCategoria extends HttpServlet {
         peticion.setAttribute("categorias", lista);
         despachador = peticion.getRequestDispatcher("categorias.jsp");
         despachador.forward(peticion, respuesta);
-
+        //funciona
     }
 
     public void doGet(HttpServletRequest peticion, HttpServletResponse respuesta)
